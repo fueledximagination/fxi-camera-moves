@@ -1,0 +1,1295 @@
+[
+  {
+    "id": "static-shot",
+    "name": "Static shot",
+    "category": "Pan/Tilt",
+    "description": "Locked-off frame — no camera movement at all.",
+    "prompt": "locked-off static shot. Movement: hold one fixed camera position for the full clip. Speed: still and steady. Framing: keep the same angle, height, lens distance and composition. End: finish with the same framing and camera position.",
+    "prompt_template": "{scene}. Camera: locked-off static shot. Movement: hold one fixed camera position for the full clip. Speed: still and steady. Framing: keep the same angle, height, lens distance and composition. End: finish with the same framing and camera position.",
+    "best_for": "Dialogue holds, tableaux, and moments that need calm and control.",
+    "tips": [
+      "Let the subject carry the motion: a gesture, breath, wind in hair or drifting smoke.",
+      "Say \"the camera does not move\" once more at the end of the prompt if the model keeps drifting."
+    ],
+    "negatives": [
+      "camera movement",
+      "zoom",
+      "pan",
+      "tilt",
+      "camera shake",
+      "handheld sway"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 6,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/static-shot-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/static-shot-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/static-shot-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/static-shot?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "pan-right",
+    "name": "Pan right",
+    "category": "Pan/Tilt",
+    "description": "Horizontal rotation left-to-right from a fixed point.",
+    "prompt": "pan right. Movement: rotate the camera horizontally from left to right from one fixed point. Speed: smooth constant rotation. Framing: keep the horizon level while new space enters from the right side of the frame. End: settle on a clear final composition.",
+    "prompt_template": "{scene}. Camera: pan right. Movement: rotate the camera horizontally from left to right from one fixed point. Speed: smooth constant rotation. Framing: keep the horizon level while new space enters from the right side of the frame. End: settle on a clear final composition.",
+    "best_for": "Revealing a landscape or handing off to a subject entering frame right.",
+    "tips": [
+      "Start the frame with open space on the right so the pan has something to reveal.",
+      "Keep the pan under half a turn per clip; wide sweeps smear detail."
+    ],
+    "negatives": [
+      "tilt",
+      "zoom",
+      "camera shake",
+      "tilted horizon",
+      "dolly movement"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 6,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/pan-right-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/pan-right-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/pan-right-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/pan-right?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "pan-left",
+    "name": "Pan left",
+    "category": "Pan/Tilt",
+    "description": "Horizontal rotation right-to-left from a fixed point.",
+    "prompt": "pan left. Movement: rotate the camera horizontally from right to left from one fixed point. Speed: smooth constant rotation. Framing: keep the horizon level while new space enters from the left side of the frame. End: settle on a clear final composition.",
+    "prompt_template": "{scene}. Camera: pan left. Movement: rotate the camera horizontally from right to left from one fixed point. Speed: smooth constant rotation. Framing: keep the horizon level while new space enters from the left side of the frame. End: settle on a clear final composition.",
+    "best_for": "Following a subject moving left or unveiling a reveal to frame left.",
+    "tips": [
+      "Start the frame with open space on the left so the pan has something to reveal.",
+      "Keep the pan under half a turn per clip; wide sweeps smear detail."
+    ],
+    "negatives": [
+      "tilt",
+      "zoom",
+      "camera shake",
+      "tilted horizon",
+      "dolly movement"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 6,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/pan-left-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/pan-left-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/pan-left-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/pan-left?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "whip-pan-right",
+    "name": "Whip pan right",
+    "category": "Pan/Tilt",
+    "description": "Fast snap rotation to the right with motion blur.",
+    "prompt": "whip pan right. Movement: rotate rapidly from the starting direction toward a new target on the right. Speed: fast snap with brief motion blur during the rotation. Framing: begin on one readable composition and land on a second readable target. End: settle into a sharp final frame.",
+    "prompt_template": "{scene}. Camera: whip pan right. Movement: rotate rapidly from the starting direction toward a new target on the right. Speed: fast snap with brief motion blur during the rotation. Framing: begin on one readable composition and land on a second readable target. End: settle into a sharp final frame.",
+    "best_for": "Energetic scene transitions and connecting two beats with a blur cut.",
+    "tips": [
+      "Name the landing target (\"land on the open doorway on the right\") so the clip ends on something readable.",
+      "Cut out of the blur, or chain the next clip from the settled last frame."
+    ],
+    "negatives": [
+      "slow pan",
+      "zoom",
+      "blur on the final frame",
+      "multiple whip pans",
+      "tilt"
+    ],
+    "recommended_duration_min_s": 2,
+    "recommended_duration_max_s": 4,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/whip-pan-right-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/whip-pan-right-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/whip-pan-right-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/whip-pan-right?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "whip-pan-left",
+    "name": "Whip pan left",
+    "category": "Pan/Tilt",
+    "description": "Fast snap rotation to the left with motion blur.",
+    "prompt": "whip pan left. Movement: rotate rapidly from the starting direction toward a new target on the left. Speed: fast snap with brief motion blur during the rotation. Framing: begin on one readable composition and land on a second readable target. End: settle into a sharp final frame.",
+    "prompt_template": "{scene}. Camera: whip pan left. Movement: rotate rapidly from the starting direction toward a new target on the left. Speed: fast snap with brief motion blur during the rotation. Framing: begin on one readable composition and land on a second readable target. End: settle into a sharp final frame.",
+    "best_for": "Energetic scene transitions and connecting two beats with a blur cut.",
+    "tips": [
+      "Name the landing target (\"land on the window on the left\") so the clip ends on something readable.",
+      "Cut out of the blur, or chain the next clip from the settled last frame."
+    ],
+    "negatives": [
+      "slow pan",
+      "zoom",
+      "blur on the final frame",
+      "multiple whip pans",
+      "tilt"
+    ],
+    "recommended_duration_min_s": 2,
+    "recommended_duration_max_s": 4,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/whip-pan-left-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/whip-pan-left-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/whip-pan-left-v7.jpg",
+    "example_clip_duration_s": 5.83,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/whip-pan-left?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "tilt-up",
+    "name": "Tilt up",
+    "category": "Pan/Tilt",
+    "description": "Vertical rotation upward from a fixed point.",
+    "prompt": "tilt up. Movement: rotate the camera upward from one fixed point. Speed: smooth constant tilt. Framing: keep the vertical subject or architecture centered as the frame travels upward. End: land on the upper target.",
+    "prompt_template": "{scene}. Camera: tilt up. Movement: rotate the camera upward from one fixed point. Speed: smooth constant tilt. Framing: keep the vertical subject or architecture centered as the frame travels upward. End: land on the upper target.",
+    "best_for": "Reverent reveals — rising from feet to face, or up a tall structure.",
+    "tips": [
+      "Frame the start on the base of the subject (feet, foundation, trunk) and name what the tilt lands on.",
+      "Tall vertical subjects read best; flat scenes give the tilt nothing to follow."
+    ],
+    "negatives": [
+      "pan",
+      "zoom",
+      "camera moving forward",
+      "crane movement",
+      "camera shake"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 6,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/tilt-up-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/tilt-up-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/tilt-up-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/tilt-up?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "tilt-down",
+    "name": "Tilt down",
+    "category": "Pan/Tilt",
+    "description": "Vertical rotation downward from a fixed point.",
+    "prompt": "tilt down. Movement: rotate the camera downward from one fixed point. Speed: smooth constant tilt. Framing: keep the vertical subject or architecture centered as the frame travels downward. End: land on the lower target.",
+    "prompt_template": "{scene}. Camera: tilt down. Movement: rotate the camera downward from one fixed point. Speed: smooth constant tilt. Framing: keep the vertical subject or architecture centered as the frame travels downward. End: land on the lower target.",
+    "best_for": "Descending a subject or revealing what lies below the eyeline.",
+    "tips": [
+      "Start on the top of the subject and name the lower target the shot should land on.",
+      "Works well as a reveal: sky or ceiling first, then the subject below."
+    ],
+    "negatives": [
+      "pan",
+      "zoom",
+      "camera moving forward",
+      "crane movement",
+      "camera shake"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 6,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/tilt-down-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/tilt-down-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/tilt-down-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/tilt-down?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "slow-zoom-in",
+    "name": "Slow zoom in",
+    "category": "Zoom/Lens",
+    "description": "Gradual optical push toward a tighter frame.",
+    "prompt": "slow zoom in. Movement: slowly increase lens focal length toward a tighter frame. Speed: gradual and even. Framing: keep the main visual target readable as it becomes larger in frame. End: finish on a stable tighter composition.",
+    "prompt_template": "{scene}. Camera: slow zoom in. Movement: slowly increase lens focal length toward a tighter frame. Speed: gradual and even. Framing: keep the main visual target readable as it becomes larger in frame. End: finish on a stable tighter composition.",
+    "best_for": "Building tension and drawing the eye toward an emotional beat.",
+    "tips": [
+      "Center the subject in the start frame so the zoom tightens on it rather than drifting off.",
+      "Use \"zoom\", not \"move closer\"; the second phrasing invites a dolly with parallax."
+    ],
+    "negatives": [
+      "dolly movement",
+      "parallax shift",
+      "pan",
+      "fast zoom",
+      "camera shake"
+    ],
+    "recommended_duration_min_s": 5,
+    "recommended_duration_max_s": 8,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/slow-zoom-in-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/slow-zoom-in-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/slow-zoom-in-v7.jpg",
+    "example_clip_duration_s": 5.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/slow-zoom-in?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "slow-zoom-out",
+    "name": "Slow zoom out",
+    "category": "Zoom/Lens",
+    "description": "Gradual optical pull toward a wider frame.",
+    "prompt": "slow zoom out. Movement: slowly decrease lens focal length toward a wider frame. Speed: gradual and even. Framing: keep the main visual target readable as more surrounding space appears. End: finish on a stable wider composition.",
+    "prompt_template": "{scene}. Camera: slow zoom out. Movement: slowly decrease lens focal length toward a wider frame. Speed: gradual and even. Framing: keep the main visual target readable as more surrounding space appears. End: finish on a stable wider composition.",
+    "best_for": "Revealing context and letting a subject shrink into its world.",
+    "tips": [
+      "Leave believable surroundings implied at the frame edges so the zoom out has a world to reveal.",
+      "Pair with a still subject; people walking out of frame fight the reveal."
+    ],
+    "negatives": [
+      "dolly movement",
+      "parallax shift",
+      "pan",
+      "fast zoom",
+      "camera shake"
+    ],
+    "recommended_duration_min_s": 5,
+    "recommended_duration_max_s": 8,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/slow-zoom-out-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/slow-zoom-out-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/slow-zoom-out-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/slow-zoom-out?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "fast-zoom-in",
+    "name": "Fast zoom in",
+    "category": "Zoom/Lens",
+    "description": "Quick decisive optical push to a tighter frame.",
+    "prompt": "fast zoom in. Movement: quickly increase lens focal length toward the main visual target. Speed: quick decisive zoom. Framing: keep the target centered or clearly readable during the scale change. End: finish on a stable tighter composition.",
+    "prompt_template": "{scene}. Camera: fast zoom in. Movement: quickly increase lens focal length toward the main visual target. Speed: quick decisive zoom. Framing: keep the target centered or clearly readable during the scale change. End: finish on a stable tighter composition.",
+    "best_for": "Punchy emphasis — snapping attention to a detail or reaction.",
+    "tips": [
+      "Name the exact detail the zoom lands on (eyes, a ring, a clock face).",
+      "Keep the landing frame sharp: add \"finish in focus\" to the End line."
+    ],
+    "negatives": [
+      "slow zoom",
+      "dolly movement",
+      "pan",
+      "blurry final frame",
+      "camera shake"
+    ],
+    "recommended_duration_min_s": 3,
+    "recommended_duration_max_s": 5,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/fast-zoom-in-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/fast-zoom-in-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/fast-zoom-in-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/fast-zoom-in?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "fast-zoom-out",
+    "name": "Fast zoom out",
+    "category": "Zoom/Lens",
+    "description": "Quick decisive optical pull to a wider frame.",
+    "prompt": "fast zoom out. Movement: quickly decrease lens focal length away from the main visual target. Speed: quick decisive zoom. Framing: keep the target readable as the surrounding space appears. End: finish on a stable wider composition.",
+    "prompt_template": "{scene}. Camera: fast zoom out. Movement: quickly decrease lens focal length away from the main visual target. Speed: quick decisive zoom. Framing: keep the target readable as the surrounding space appears. End: finish on a stable wider composition.",
+    "best_for": "Sudden context reveals and comedic or shock beats.",
+    "tips": [
+      "Start tight on one detail and name the wide context the pull reveals.",
+      "Short clips hold the energy; longer ones slow down into a regular zoom out."
+    ],
+    "negatives": [
+      "slow zoom",
+      "dolly movement",
+      "pan",
+      "blurry final frame",
+      "camera shake"
+    ],
+    "recommended_duration_min_s": 3,
+    "recommended_duration_max_s": 5,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/fast-zoom-out-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/fast-zoom-out-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/fast-zoom-out-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/fast-zoom-out?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "crash-zoom-in",
+    "name": "Crash zoom in",
+    "category": "Zoom/Lens",
+    "description": "Violent snap zoom toward the target.",
+    "prompt": "crash zoom in. Movement: snap the lens rapidly toward the main visual target. Speed: very fast and punchy. Framing: keep the target readable through the sudden scale change. End: land on a bold tighter composition.",
+    "prompt_template": "{scene}. Camera: crash zoom in. Movement: snap the lens rapidly toward the main visual target. Speed: very fast and punchy. Framing: keep the target readable through the sudden scale change. End: land on a bold tighter composition.",
+    "best_for": "High-impact stingers, meme energy, and aggressive emphasis.",
+    "tips": [
+      "Keep the clip very short; a crash zoom is a punctuation mark, not a shot.",
+      "Place the target dead center in the start frame so the snap stays on it."
+    ],
+    "negatives": [
+      "slow zoom",
+      "dolly movement",
+      "pan",
+      "multiple zooms",
+      "drifting framing"
+    ],
+    "recommended_duration_min_s": 2,
+    "recommended_duration_max_s": 3,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/crash-zoom-in-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/crash-zoom-in-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/crash-zoom-in-v7.jpg",
+    "example_clip_duration_s": 5.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/crash-zoom-in?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "crash-zoom-out",
+    "name": "Crash zoom out",
+    "category": "Zoom/Lens",
+    "description": "Violent snap zoom away from the target.",
+    "prompt": "crash zoom out. Movement: snap the lens rapidly away from the main visual target. Speed: very fast and punchy. Framing: keep the target readable as the surrounding space appears. End: land on a bold wider composition.",
+    "prompt_template": "{scene}. Camera: crash zoom out. Movement: snap the lens rapidly away from the main visual target. Speed: very fast and punchy. Framing: keep the target readable as the surrounding space appears. End: land on a bold wider composition.",
+    "best_for": "Explosive reveals and hard tonal shifts.",
+    "tips": [
+      "Keep the clip very short and land on a wide frame that explains the moment.",
+      "Comedic reveals work best when the wide frame adds new information."
+    ],
+    "negatives": [
+      "slow zoom",
+      "dolly movement",
+      "pan",
+      "multiple zooms",
+      "drifting framing"
+    ],
+    "recommended_duration_min_s": 2,
+    "recommended_duration_max_s": 3,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/crash-zoom-out-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/crash-zoom-out-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/crash-zoom-out-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/crash-zoom-out?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "dolly-in",
+    "name": "Dolly in",
+    "category": "Dolly/Track",
+    "description": "Camera body physically pushes forward toward the subject.",
+    "prompt": "dolly in. Movement: move the camera physically forward in a straight line toward the main subject. Speed: smooth controlled push. Framing: keep camera height, lens direction and subject position consistent while distance closes. End: finish in a tighter composition.",
+    "prompt_template": "{scene}. Camera: dolly in. Movement: move the camera physically forward in a straight line toward the main subject. Speed: smooth controlled push. Framing: keep camera height, lens direction and subject position consistent while distance closes. End: finish in a tighter composition.",
+    "best_for": "Intimacy with parallax — closing on a subject as the world slides past.",
+    "tips": [
+      "Ask for visible parallax (\"foreground passes faster than the background\") so it reads as a dolly, not a zoom.",
+      "One straight push per clip; chain a second clip from the last frame to go further."
+    ],
+    "negatives": [
+      "zoom",
+      "pan",
+      "tilt",
+      "camera shake",
+      "orbit",
+      "change in height"
+    ],
+    "recommended_duration_min_s": 5,
+    "recommended_duration_max_s": 8,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/dolly-in-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/dolly-in-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/dolly-in-v7.jpg",
+    "example_clip_duration_s": 5.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/dolly-in?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "dolly-out",
+    "name": "Dolly out",
+    "category": "Dolly/Track",
+    "description": "Camera body physically retreats from the subject.",
+    "prompt": "dolly out. Movement: move the camera physically backward in a straight line away from the main subject. Speed: smooth controlled retreat. Framing: keep lens direction and camera height consistent while more environment enters frame. End: finish in a wider composition.",
+    "prompt_template": "{scene}. Camera: dolly out. Movement: move the camera physically backward in a straight line away from the main subject. Speed: smooth controlled retreat. Framing: keep lens direction and camera height consistent while more environment enters frame. End: finish in a wider composition.",
+    "best_for": "Endings and isolation — pulling away to leave a subject in space.",
+    "tips": [
+      "Keep the subject still and centered so the retreat does the storytelling.",
+      "Great as a closing shot: end on the subject small inside the space."
+    ],
+    "negatives": [
+      "zoom",
+      "pan",
+      "tilt",
+      "camera shake",
+      "orbit",
+      "change in height"
+    ],
+    "recommended_duration_min_s": 5,
+    "recommended_duration_max_s": 8,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/dolly-out-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/dolly-out-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/dolly-out-v7.jpg",
+    "example_clip_duration_s": 5.83,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/dolly-out?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "tracking-shot",
+    "name": "Tracking shot",
+    "category": "Dolly/Track",
+    "description": "Camera travels through the scene with the subject.",
+    "prompt": "tracking shot. Movement: move through the scene with the main subject. Speed: match the subject pace. Framing: keep the subject consistently readable while the environment moves around them. End: maintain a clear moving composition.",
+    "prompt_template": "{scene}. Camera: tracking shot. Movement: move through the scene with the main subject. Speed: match the subject pace. Framing: keep the subject consistently readable while the environment moves around them. End: maintain a clear moving composition.",
+    "best_for": "Sustained motion — staying with a subject as they move through a space.",
+    "tips": [
+      "Give the subject a clear path (corridor, street, shoreline) the camera can follow.",
+      "State the subject's direction of travel so camera and subject agree."
+    ],
+    "negatives": [
+      "static camera",
+      "zoom",
+      "cuts",
+      "subject leaving frame",
+      "erratic shake"
+    ],
+    "recommended_duration_min_s": 5,
+    "recommended_duration_max_s": 8,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/tracking-shot-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/tracking-shot-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/tracking-shot-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/tracking-shot?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "follow-ots",
+    "name": "Follow shot / over-the-shoulder",
+    "category": "Dolly/Track",
+    "description": "Camera trails behind the subject at shoulder height.",
+    "prompt": "follow shot from behind. Movement: move behind the subject along their route at shoulder height. Speed: match the subject pace. Framing: keep the back, shoulder or head as the foreground guide while the route ahead stays readable. End: continue following with the subject leading the frame.",
+    "prompt_template": "{scene}. Camera: follow shot from behind. Movement: move behind the subject along their route at shoulder height. Speed: match the subject pace. Framing: keep the back, shoulder or head as the foreground guide while the route ahead stays readable. End: continue following with the subject leading the frame.",
+    "best_for": "Immersive journeys — putting the viewer in the subject wake.",
+    "tips": [
+      "Describe what the subject is walking toward; the destination gives the shot its point.",
+      "Keep the subject's back and shoulder in frame the whole time."
+    ],
+    "negatives": [
+      "subject facing camera",
+      "zoom",
+      "cuts",
+      "subject leaving frame",
+      "orbit"
+    ],
+    "recommended_duration_min_s": 5,
+    "recommended_duration_max_s": 8,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/follow-ots-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/follow-ots-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/follow-ots-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/follow-ots?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "reverse-tracking",
+    "name": "Reverse tracking / walk-and-talk",
+    "category": "Dolly/Track",
+    "description": "Camera moves backward in front of a walking subject.",
+    "prompt": "reverse tracking shot. Movement: move backward in front of the walking subject. Speed: match the subject forward pace. Framing: keep front-facing face and body framing stable as the background moves behind them. End: hold a clear front-facing moving composition.",
+    "prompt_template": "{scene}. Camera: reverse tracking shot. Movement: move backward in front of the walking subject. Speed: match the subject forward pace. Framing: keep front-facing face and body framing stable as the background moves behind them. End: hold a clear front-facing moving composition.",
+    "best_for": "Walk-and-talk dialogue and confident forward momentum.",
+    "tips": [
+      "The subject walks toward the lens; describe their face or expression, since it is the focus.",
+      "Keep the distance constant: add \"the gap between camera and subject stays the same\"."
+    ],
+    "negatives": [
+      "subject walking away",
+      "zoom",
+      "cuts",
+      "distance changing",
+      "orbit"
+    ],
+    "recommended_duration_min_s": 5,
+    "recommended_duration_max_s": 8,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/reverse-tracking-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/reverse-tracking-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/reverse-tracking-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/reverse-tracking?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "side-tracking",
+    "name": "Side tracking",
+    "category": "Dolly/Track",
+    "description": "Camera glides parallel beside the subject.",
+    "prompt": "side tracking shot. Movement: move parallel beside the subject along their direction of travel. Speed: match the subject motion. Framing: keep the subject in side profile or three-quarter profile at a stable distance. End: continue the parallel movement with clear horizontal motion.",
+    "prompt_template": "{scene}. Camera: side tracking shot. Movement: move parallel beside the subject along their direction of travel. Speed: match the subject motion. Framing: keep the subject in side profile or three-quarter profile at a stable distance. End: continue the parallel movement with clear horizontal motion.",
+    "best_for": "Profile motion — showing pace and progress across the frame.",
+    "tips": [
+      "Profile framing works best; describe the subject in side view.",
+      "Foreground elements passing between camera and subject sell the speed."
+    ],
+    "negatives": [
+      "zoom",
+      "camera turning toward subject",
+      "orbit",
+      "cuts",
+      "subject leaving frame"
+    ],
+    "recommended_duration_min_s": 5,
+    "recommended_duration_max_s": 8,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/side-tracking-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/side-tracking-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/side-tracking-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/side-tracking?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "low-tracking",
+    "name": "Low tracking",
+    "category": "Dolly/Track",
+    "description": "Ground-level travel alongside the subject.",
+    "prompt": "low tracking shot. Movement: move at ground or below-waist height alongside the subject movement path. Speed: match the subject, footsteps or wheels. Framing: keep the low detail readable while the ground plane moves through frame. End: finish with the low perspective clearly maintained.",
+    "prompt_template": "{scene}. Camera: low tracking shot. Movement: move at ground or below-waist height alongside the subject movement path. Speed: match the subject, footsteps or wheels. Framing: keep the low detail readable while the ground plane moves through frame. End: finish with the low perspective clearly maintained.",
+    "best_for": "Kinetic energy — feet, wheels, and speed felt from the ground.",
+    "tips": [
+      "Describe the ground texture (wet asphalt, grass, sand) since it fills the bottom of the frame.",
+      "Feet, paws and wheels make great subjects for this height."
+    ],
+    "negatives": [
+      "eye-level camera",
+      "aerial view",
+      "zoom",
+      "tilt up",
+      "cuts"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 7,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/low-tracking-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/low-tracking-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/low-tracking-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/low-tracking?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "truck-left",
+    "name": "Truck left",
+    "category": "Physical Moves",
+    "description": "Whole camera slides left on a horizontal path.",
+    "prompt": "truck left. Movement: move the camera physically to the left on a straight horizontal path. Speed: smooth constant lateral travel. Framing: keep the lens facing the same direction while the scene slides across frame. End: finish on a clean lateral composition.",
+    "prompt_template": "{scene}. Camera: truck left. Movement: move the camera physically to the left on a straight horizontal path. Speed: smooth constant lateral travel. Framing: keep the lens facing the same direction while the scene slides across frame. End: finish on a clean lateral composition.",
+    "best_for": "Lateral reveals across a scene without changing the lens angle.",
+    "tips": [
+      "Layer the scene (foreground, midground, background) so the slide produces parallax.",
+      "Keep the camera facing the same direction; a truck is a slide, not a pan."
+    ],
+    "negatives": [
+      "pan",
+      "rotation",
+      "zoom",
+      "orbit",
+      "tilted horizon"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 6,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/truck-left-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/truck-left-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/truck-left-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/truck-left?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "truck-right",
+    "name": "Truck right",
+    "category": "Physical Moves",
+    "description": "Whole camera slides right on a horizontal path.",
+    "prompt": "truck right. Movement: move the camera physically to the right on a straight horizontal path. Speed: smooth constant lateral travel. Framing: keep the lens facing the same direction while the scene slides across frame. End: finish on a clean lateral composition.",
+    "prompt_template": "{scene}. Camera: truck right. Movement: move the camera physically to the right on a straight horizontal path. Speed: smooth constant lateral travel. Framing: keep the lens facing the same direction while the scene slides across frame. End: finish on a clean lateral composition.",
+    "best_for": "Lateral reveals across a scene without changing the lens angle.",
+    "tips": [
+      "Layer the scene (foreground, midground, background) so the slide produces parallax.",
+      "Keep the camera facing the same direction; a truck is a slide, not a pan."
+    ],
+    "negatives": [
+      "pan",
+      "rotation",
+      "zoom",
+      "orbit",
+      "tilted horizon"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 6,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/truck-right-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/truck-right-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/truck-right-v7.jpg",
+    "example_clip_duration_s": 5.83,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/truck-right?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "pedestal-up",
+    "name": "Pedestal up",
+    "category": "Physical Moves",
+    "description": "Whole camera rises straight up, lens kept level.",
+    "prompt": "pedestal up. Movement: move the entire camera vertically upward in a straight line. Speed: smooth constant lift. Framing: keep the lens level and pointed in the same direction during the vertical move. End: finish with the higher framing clearly readable.",
+    "prompt_template": "{scene}. Camera: pedestal up. Movement: move the entire camera vertically upward in a straight line. Speed: smooth constant lift. Framing: keep the lens level and pointed in the same direction during the vertical move. End: finish with the higher framing clearly readable.",
+    "best_for": "Rising to a new eyeline while holding a level horizon.",
+    "tips": [
+      "Say \"the lens stays level\" so the model doesn't tilt instead of rise.",
+      "Good for rising over a counter, crowd or wall to reveal what is behind it."
+    ],
+    "negatives": [
+      "tilt",
+      "zoom",
+      "pan",
+      "camera moving forward",
+      "crane arc"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 6,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/pedestal-up-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/pedestal-up-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/pedestal-up-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/pedestal-up?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "pedestal-down",
+    "name": "Pedestal down",
+    "category": "Physical Moves",
+    "description": "Whole camera lowers straight down, lens kept level.",
+    "prompt": "pedestal down. Movement: move the entire camera vertically downward in a straight line. Speed: smooth constant descent. Framing: keep the lens level and pointed in the same direction during the vertical move. End: finish with the lower framing clearly readable.",
+    "prompt_template": "{scene}. Camera: pedestal down. Movement: move the entire camera vertically downward in a straight line. Speed: smooth constant descent. Framing: keep the lens level and pointed in the same direction during the vertical move. End: finish with the lower framing clearly readable.",
+    "best_for": "Dropping to a low eyeline while holding a level horizon.",
+    "tips": [
+      "Say \"the lens stays level\" so the model doesn't tilt instead of lower.",
+      "Lower into a subject's eyeline to make the moment feel personal."
+    ],
+    "negatives": [
+      "tilt",
+      "zoom",
+      "pan",
+      "camera moving forward",
+      "crane arc"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 6,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/pedestal-down-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/pedestal-down-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/pedestal-down-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/pedestal-down?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "arc-left",
+    "name": "Arc left",
+    "category": "Physical Moves",
+    "description": "Shallow curved move around the subject to the left.",
+    "prompt": "arc left. Movement: move on a shallow curved path around the main subject toward the left side. Speed: smooth measured curve. Framing: keep distance, height and subject readability consistent while the angle changes. End: finish from a new left-side angle.",
+    "prompt_template": "{scene}. Camera: arc left. Movement: move on a shallow curved path around the main subject toward the left side. Speed: smooth measured curve. Framing: keep distance, height and subject readability consistent while the angle changes. End: finish from a new left-side angle.",
+    "best_for": "Adding dimension — a gentler cousin of the full orbit.",
+    "tips": [
+      "Name the arc length (\"a quarter turn around the subject\") so it doesn't become a full orbit.",
+      "Keep the subject centered and still; the background should do the moving."
+    ],
+    "negatives": [
+      "full orbit",
+      "zoom",
+      "change in height",
+      "subject moving",
+      "cuts"
+    ],
+    "recommended_duration_min_s": 5,
+    "recommended_duration_max_s": 8,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/arc-left-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/arc-left-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/arc-left-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/arc-left?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "arc-right",
+    "name": "Arc right",
+    "category": "Physical Moves",
+    "description": "Shallow curved move around the subject to the right.",
+    "prompt": "arc right. Movement: move on a shallow curved path around the main subject toward the right side. Speed: smooth measured curve. Framing: keep distance, height and subject readability consistent while the angle changes. End: finish from a new right-side angle.",
+    "prompt_template": "{scene}. Camera: arc right. Movement: move on a shallow curved path around the main subject toward the right side. Speed: smooth measured curve. Framing: keep distance, height and subject readability consistent while the angle changes. End: finish from a new right-side angle.",
+    "best_for": "Adding dimension — a gentler cousin of the full orbit.",
+    "tips": [
+      "Name the arc length (\"a quarter turn around the subject\") so it doesn't become a full orbit.",
+      "Keep the subject centered and still; the background should do the moving."
+    ],
+    "negatives": [
+      "full orbit",
+      "zoom",
+      "change in height",
+      "subject moving",
+      "cuts"
+    ],
+    "recommended_duration_min_s": 5,
+    "recommended_duration_max_s": 8,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/arc-right-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/arc-right-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/arc-right-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/arc-right?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "orbit-clockwise",
+    "name": "Orbit clockwise",
+    "category": "Physical Moves",
+    "description": "Full circle around the subject, clockwise.",
+    "prompt": "clockwise orbit. Movement: circle clockwise around the main subject at a consistent radius. Speed: smooth controlled orbit. Framing: keep the subject centered while the background rotates around them. End: complete the intended arc or full circle with stable framing.",
+    "prompt_template": "{scene}. Camera: clockwise orbit. Movement: circle clockwise around the main subject at a consistent radius. Speed: smooth controlled orbit. Framing: keep the subject centered while the background rotates around them. End: complete the intended arc or full circle with stable framing.",
+    "best_for": "Hero reveals — a true 3D turn that shows every side of a subject.",
+    "tips": [
+      "Isolated subjects with a readable background all the way around orbit best.",
+      "If the model stops early, shorten the orbit to a half circle and chain a second clip."
+    ],
+    "negatives": [
+      "zoom",
+      "change in radius",
+      "change in height",
+      "subject turning with camera",
+      "cuts"
+    ],
+    "recommended_duration_min_s": 6,
+    "recommended_duration_max_s": 10,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/orbit-clockwise-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/orbit-clockwise-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/orbit-clockwise-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/orbit-clockwise?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "orbit-counterclockwise",
+    "name": "Orbit counterclockwise",
+    "category": "Physical Moves",
+    "description": "Full circle around the subject, counterclockwise.",
+    "prompt": "counterclockwise orbit. Movement: circle counterclockwise around the main subject at a consistent radius. Speed: smooth controlled orbit. Framing: keep the subject centered while the background rotates around them. End: complete the intended arc or full circle with stable framing.",
+    "prompt_template": "{scene}. Camera: counterclockwise orbit. Movement: circle counterclockwise around the main subject at a consistent radius. Speed: smooth controlled orbit. Framing: keep the subject centered while the background rotates around them. End: complete the intended arc or full circle with stable framing.",
+    "best_for": "Hero reveals — a true 3D turn that shows every side of a subject.",
+    "tips": [
+      "Isolated subjects with a readable background all the way around orbit best.",
+      "If the model stops early, shorten the orbit to a half circle and chain a second clip."
+    ],
+    "negatives": [
+      "zoom",
+      "change in radius",
+      "change in height",
+      "subject turning with camera",
+      "cuts"
+    ],
+    "recommended_duration_min_s": 6,
+    "recommended_duration_max_s": 10,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/orbit-counterclockwise-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/orbit-counterclockwise-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/orbit-counterclockwise-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/orbit-counterclockwise?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "push-past",
+    "name": "Push past / pass-by shot",
+    "category": "Physical Moves",
+    "description": "Glide forward past a foreground object into the space beyond.",
+    "prompt": "push past. Movement: move forward past a visible foreground object, edge or opening. Speed: smooth forward glide. Framing: let the foreground pass close to the lens while the space beyond becomes clearer. End: arrive inside or beyond the foreground layer.",
+    "prompt_template": "{scene}. Camera: push past. Movement: move forward past a visible foreground object, edge or opening. Speed: smooth forward glide. Framing: let the foreground pass close to the lens while the space beyond becomes clearer. End: arrive inside or beyond the foreground layer.",
+    "best_for": "Layered depth — using a foreground wipe to reveal a new plane.",
+    "tips": [
+      "Put the foreground object (a doorframe, leaves, a shoulder) right in the start frame.",
+      "Name the space beyond the object so the shot has somewhere to land."
+    ],
+    "negatives": [
+      "zoom",
+      "stopping at the object",
+      "pan",
+      "cuts",
+      "camera shake"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 7,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/push-past-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/push-past-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/push-past-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/push-past?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "pass-through",
+    "name": "Pass-through objects",
+    "category": "Physical Moves",
+    "description": "Move toward and continue through a surface or barrier.",
+    "prompt": "pass-through movement. Movement: move forward toward a visible object, surface or barrier and continue into the space beyond. Speed: smooth centered glide. Framing: keep the opening or surface centered as the transition point. End: arrive inside the revealed space beyond.",
+    "prompt_template": "{scene}. Camera: pass-through movement. Movement: move forward toward a visible object, surface or barrier and continue into the space beyond. Speed: smooth centered glide. Framing: keep the opening or surface centered as the transition point. End: arrive inside the revealed space beyond.",
+    "best_for": "Impossible transitions — passing through walls, screens, or portals.",
+    "tips": [
+      "Choose a surface that can plausibly be passed: a window, keyhole, screen, cloud layer.",
+      "Describe both sides; the world beyond the barrier is the payoff and the end frame."
+    ],
+    "negatives": [
+      "stopping at the surface",
+      "zoom",
+      "cuts",
+      "pan",
+      "camera reversing"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 7,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/pass-through-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/pass-through-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/pass-through-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/pass-through?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "handheld-shot",
+    "name": "Handheld shot",
+    "category": "Human Camera",
+    "description": "Operator-height frame with natural organic sway.",
+    "prompt": "handheld shot. Movement: hold the camera at human operator height with natural body movement. Speed: responsive and organic. Framing: keep the subject readable while the frame has subtle sway and micro-adjustments. End: finish with a natural handheld composition.",
+    "prompt_template": "{scene}. Camera: handheld shot. Movement: hold the camera at human operator height with natural body movement. Speed: responsive and organic. Framing: keep the subject readable while the frame has subtle sway and micro-adjustments. End: finish with a natural handheld composition.",
+    "best_for": "Documentary immediacy and raw, human presence.",
+    "tips": [
+      "Ask for \"subtle\" sway; heavy shake reads as a glitch in AI video.",
+      "Documentary and verité scenes (kitchens, streets, rooms) suit it best."
+    ],
+    "negatives": [
+      "violent shaking",
+      "gimbal-smooth motion",
+      "zoom",
+      "motion blur",
+      "cuts"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 8,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/handheld-shot-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/handheld-shot-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/handheld-shot-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/handheld-shot?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "chase-shot",
+    "name": "Chase shot",
+    "category": "Human Camera",
+    "description": "Fast reactive pursuit of a moving subject.",
+    "prompt": "chase shot. Movement: follow a moving subject quickly along the action route. Speed: fast, reactive and physically close. Framing: keep the subject visible while allowing energetic reframing. End: stay connected to the subject in motion.",
+    "prompt_template": "{scene}. Camera: chase shot. Movement: follow a moving subject quickly along the action route. Speed: fast, reactive and physically close. Framing: keep the subject visible while allowing energetic reframing. End: stay connected to the subject in motion.",
+    "best_for": "Action and urgency — staying glued to a subject in flight.",
+    "tips": [
+      "Give the subject and the route clear direction (\"running left down the alley\").",
+      "Short clips keep the action coherent; chain for longer pursuits."
+    ],
+    "negatives": [
+      "slow motion",
+      "static camera",
+      "cuts",
+      "subject leaving frame",
+      "zoom"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 6,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/chase-shot-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/chase-shot-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/chase-shot-v7.jpg",
+    "example_clip_duration_s": 5.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/chase-shot?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "snorricam",
+    "name": "Body-mounted camera / Snorricam",
+    "category": "Human Camera",
+    "description": "Camera fixed to the subject; the world moves around them.",
+    "prompt": "body-mounted Snorricam. Movement: keep the camera fixed relative to the subject torso or face while the subject moves. Speed: match the subject body motion. Framing: keep the subject close, centered and facing the camera as the background moves around them. End: finish with the subject still locked in frame.",
+    "prompt_template": "{scene}. Camera: body-mounted Snorricam. Movement: keep the camera fixed relative to the subject torso or face while the subject moves. Speed: match the subject body motion. Framing: keep the subject close, centered and facing the camera as the background moves around them. End: finish with the subject still locked in frame.",
+    "best_for": "Disorientation and intensity — the subject still, the world reeling.",
+    "tips": [
+      "Frame the subject's face or torso tight and centered; the background should swing, not the subject.",
+      "Disorientation, panic and euphoria are the natural moods for this rig."
+    ],
+    "negatives": [
+      "subject moving in frame",
+      "zoom",
+      "cuts",
+      "static background",
+      "camera detached from subject"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 6,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/snorricam-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/snorricam-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/snorricam-v7.jpg",
+    "example_clip_duration_s": 5.83,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/snorricam?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "crane-up",
+    "name": "Crane up",
+    "category": "Drone/Crane",
+    "description": "Smooth vertical lift through open space.",
+    "prompt": "crane up. Movement: travel smoothly upward through open space. Speed: slow controlled vertical lift. Framing: keep the subject or location readable as the camera rises. End: finish with the higher scale clearly visible.",
+    "prompt_template": "{scene}. Camera: crane up. Movement: travel smoothly upward through open space. Speed: slow controlled vertical lift. Framing: keep the subject or location readable as the camera rises. End: finish with the higher scale clearly visible.",
+    "best_for": "Grand reveals — rising off a subject to expose the wider world.",
+    "tips": [
+      "Start close to the subject and name the high final view (rooftops, crowd, valley).",
+      "Open space above the subject gives the lift room."
+    ],
+    "negatives": [
+      "zoom",
+      "tilt only",
+      "pan",
+      "camera shake",
+      "cuts"
+    ],
+    "recommended_duration_min_s": 5,
+    "recommended_duration_max_s": 8,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/crane-up-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/crane-up-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/crane-up-v7.jpg",
+    "example_clip_duration_s": 5.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/crane-up?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "crane-down",
+    "name": "Crane down",
+    "category": "Drone/Crane",
+    "description": "Smooth vertical descent through open space.",
+    "prompt": "crane down. Movement: travel smoothly downward through open space. Speed: slow controlled vertical descent. Framing: keep the subject or location readable as the camera descends. End: finish with the lower subject or destination clearly visible.",
+    "prompt_template": "{scene}. Camera: crane down. Movement: travel smoothly downward through open space. Speed: slow controlled vertical descent. Framing: keep the subject or location readable as the camera descends. End: finish with the lower subject or destination clearly visible.",
+    "best_for": "Descending into a scene or arriving on a subject from above.",
+    "tips": [
+      "Start on a wide overhead view and name the subject the descent lands on.",
+      "Classic opening move: world first, then the character."
+    ],
+    "negatives": [
+      "zoom",
+      "tilt only",
+      "pan",
+      "camera shake",
+      "cuts"
+    ],
+    "recommended_duration_min_s": 5,
+    "recommended_duration_max_s": 8,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/crane-down-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/crane-down-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/crane-down-v7.jpg",
+    "example_clip_duration_s": 5.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/crane-down?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "drone-push-in",
+    "name": "Drone push in",
+    "category": "Drone/Crane",
+    "description": "Aerial forward glide toward the subject.",
+    "prompt": "drone push in. Movement: fly smoothly forward through open space toward the subject or destination. Speed: controlled aerial glide. Framing: keep the route and destination readable as the camera approaches. End: arrive at a closer aerial composition.",
+    "prompt_template": "{scene}. Camera: drone push in. Movement: fly smoothly forward through open space toward the subject or destination. Speed: controlled aerial glide. Framing: keep the route and destination readable as the camera approaches. End: arrive at a closer aerial composition.",
+    "best_for": "Sweeping approaches — flying in on a location or hero subject.",
+    "tips": [
+      "Describe the destination (a cabin, a cliff edge, a lone figure) as the end of the flight.",
+      "Big landscapes and clear sky read best; tight interiors fight a drone move."
+    ],
+    "negatives": [
+      "camera shake",
+      "zoom",
+      "cuts",
+      "handheld sway",
+      "sudden turns"
+    ],
+    "recommended_duration_min_s": 6,
+    "recommended_duration_max_s": 10,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/drone-push-in-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/drone-push-in-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/drone-push-in-v7.jpg",
+    "example_clip_duration_s": 5.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/drone-push-in?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "drone-pull-back",
+    "name": "Drone pull back",
+    "category": "Drone/Crane",
+    "description": "Aerial backward glide revealing more landscape.",
+    "prompt": "drone pull back. Movement: fly smoothly backward away from the subject or destination. Speed: controlled aerial retreat. Framing: keep the subject readable as more landscape appears. End: finish on a wider aerial composition.",
+    "prompt_template": "{scene}. Camera: drone pull back. Movement: fly smoothly backward away from the subject or destination. Speed: controlled aerial retreat. Framing: keep the subject readable as more landscape appears. End: finish on a wider aerial composition.",
+    "best_for": "Epic reveals — pulling back to show scale and isolation.",
+    "tips": [
+      "Start close on the subject and name the landscape the pull reveals.",
+      "Keep the subject centered as it shrinks; it anchors the reveal."
+    ],
+    "negatives": [
+      "camera shake",
+      "zoom",
+      "cuts",
+      "handheld sway",
+      "sudden turns"
+    ],
+    "recommended_duration_min_s": 6,
+    "recommended_duration_max_s": 10,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/drone-pull-back-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/drone-pull-back-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/drone-pull-back-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/drone-pull-back?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "helicopter-shot",
+    "name": "Helicopter shot",
+    "category": "Drone/Crane",
+    "description": "High-altitude broad flight path over a landscape.",
+    "prompt": "helicopter-style aerial shot. Movement: move from high altitude along a broad gradual flight path. Speed: steady controlled aerial motion. Framing: keep the landscape or distant moving subject readable at wide scale. End: finish on a stable high-altitude composition.",
+    "prompt_template": "{scene}. Camera: helicopter-style aerial shot. Movement: move from high altitude along a broad gradual flight path. Speed: steady controlled aerial motion. Framing: keep the landscape or distant moving subject readable at wide scale. End: finish on a stable high-altitude composition.",
+    "best_for": "Establishing scale — vast landscapes and sweeping geography.",
+    "tips": [
+      "Describe scale and terrain (coastline, mountain ridge, city grid) rather than a small subject.",
+      "Golden hour or storm light gives aerial shots depth."
+    ],
+    "negatives": [
+      "low altitude",
+      "camera shake",
+      "zoom",
+      "cuts",
+      "sudden turns"
+    ],
+    "recommended_duration_min_s": 6,
+    "recommended_duration_max_s": 10,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/helicopter-shot-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/helicopter-shot-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/helicopter-shot-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/helicopter-shot?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "first-person-view",
+    "name": "First-person view",
+    "category": "Specials",
+    "description": "POV from the character own eyes, with visible body.",
+    "prompt": "first-person view. Movement: move forward at human eye height from the character perspective. Speed: natural walking or reaching pace. Framing: use visible hands, arms or body edges as the viewer physical reference. End: arrive at the next point of action from the same point of view.",
+    "prompt_template": "{scene}. Camera: first-person view. Movement: move forward at human eye height from the character perspective. Speed: natural walking or reaching pace. Framing: use visible hands, arms or body edges as the viewer physical reference. End: arrive at the next point of action from the same point of view.",
+    "best_for": "Immersion and gaming energy — putting the viewer inside the scene.",
+    "tips": [
+      "Mention visible hands or arms in frame so the model commits to the POV.",
+      "Describe what the character reaches for or walks toward."
+    ],
+    "negatives": [
+      "third-person view",
+      "character face visible",
+      "cuts",
+      "zoom",
+      "floating camera"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 8,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/first-person-view-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/first-person-view-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/first-person-view-v7.jpg",
+    "example_clip_duration_s": 5.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/first-person-view?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "tilt-shift",
+    "name": "Tilt-shift",
+    "category": "Specials",
+    "description": "Miniature-look with a narrow band of sharp focus.",
+    "prompt": "tilt-shift miniature view. Movement: hold or glide from a high angled view over the scene. Speed: small precise movement. Framing: keep a narrow band of sharp focus across the key subject area with soft blur above and below. End: finish with the miniature-scale view intact.",
+    "prompt_template": "{scene}. Camera: tilt-shift miniature view. Movement: hold or glide from a high angled view over the scene. Speed: small precise movement. Framing: keep a narrow band of sharp focus across the key subject area with soft blur above and below. End: finish with the miniature-scale view intact.",
+    "best_for": "Playful miniature worlds and stylized establishing shots.",
+    "tips": [
+      "Use a high angle over busy scenes: streets, markets, rail yards, festivals.",
+      "Bright, saturated light strengthens the miniature illusion."
+    ],
+    "negatives": [
+      "eye-level view",
+      "deep focus",
+      "shallow focus on one subject only",
+      "cuts",
+      "camera shake"
+    ],
+    "recommended_duration_min_s": 4,
+    "recommended_duration_max_s": 8,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/tilt-shift-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/tilt-shift-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/tilt-shift-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/tilt-shift?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "infinite-zoom",
+    "name": "Infinite zoom",
+    "category": "Specials",
+    "description": "Continuous accelerating zoom into the center.",
+    "prompt": "infinite zoom. Movement: zoom continuously inward toward the exact center target. Speed: smooth accelerating zoom. Framing: keep the circular target centered as it expands. End: finish when the next visual world fills the frame.",
+    "prompt_template": "{scene}. Camera: infinite zoom. Movement: zoom continuously inward toward the exact center target. Speed: smooth accelerating zoom. Framing: keep the circular target centered as it expands. End: finish when the next visual world fills the frame.",
+    "best_for": "Dreamlike loops and seamless world-to-world transitions.",
+    "tips": [
+      "Describe the world waiting at the center (an eye, a window, a planet) so the zoom has a destination.",
+      "Chain clips so each last frame starts the next zoom for a longer loop."
+    ],
+    "negatives": [
+      "zoom out",
+      "pan",
+      "cuts",
+      "off-center target",
+      "camera shake"
+    ],
+    "recommended_duration_min_s": 6,
+    "recommended_duration_max_s": 10,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/infinite-zoom-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/infinite-zoom-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/infinite-zoom-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/infinite-zoom?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "earth-zoom-out",
+    "name": "Earth zoom out",
+    "category": "Specials",
+    "description": "Rapid pull from street to planet scale.",
+    "prompt": "earth zoom out. Movement: pull upward from the starting point through street, city, landscape and planet scale. Speed: rapid expanding zoom out. Framing: keep the original location centered as scale grows. End: finish on a planet-scale view with the starting point still implied at center.",
+    "prompt_template": "{scene}. Camera: earth zoom out. Movement: pull upward from the starting point through street, city, landscape and planet scale. Speed: rapid expanding zoom out. Framing: keep the original location centered as scale grows. End: finish on a planet-scale view with the starting point still implied at center.",
+    "best_for": "Cosmic scale reveals and big-idea openers or closers.",
+    "tips": [
+      "Start at street level on a specific, recognizable spot.",
+      "Name the scale steps (street, city, continent, planet) to keep the pull continuous."
+    ],
+    "negatives": [
+      "zoom in",
+      "pan",
+      "cuts",
+      "camera shake",
+      "jump in location"
+    ],
+    "recommended_duration_min_s": 6,
+    "recommended_duration_max_s": 10,
+    "dramatic": true,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/earth-zoom-out-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/earth-zoom-out-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/earth-zoom-out-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/earth-zoom-out?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  },
+  {
+    "id": "time-lapse",
+    "name": "Time-lapse",
+    "category": "Specials",
+    "description": "Fixed camera while time races forward.",
+    "prompt": "locked-camera time-lapse. Movement: hold one fixed camera position while time moves rapidly forward. Speed: fast time compression with a stable camera. Framing: keep the same composition and horizon as motion passes through the frame. End: finish from the same camera angle with visible passage of time.",
+    "prompt_template": "{scene}. Camera: locked-camera time-lapse. Movement: hold one fixed camera position while time moves rapidly forward. Speed: fast time compression with a stable camera. Framing: keep the same composition and horizon as motion passes through the frame. End: finish from the same camera angle with visible passage of time.",
+    "best_for": "Compressing hours into seconds — skies, crowds, and construction.",
+    "tips": [
+      "Name what changes over time (clouds, shadows, crowds, a building rising).",
+      "Lock the composition hard; any camera drift breaks the effect."
+    ],
+    "negatives": [
+      "camera movement",
+      "zoom",
+      "pan",
+      "cuts",
+      "real-time motion"
+    ],
+    "recommended_duration_min_s": 5,
+    "recommended_duration_max_s": 10,
+    "dramatic": false,
+    "example_clip_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/time-lapse-v7.mp4",
+    "example_clip_webm_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/time-lapse-v7.webm",
+    "poster_url": "https://assets.fxi.studio/generations/88220018-910b-46f4-a258-4314f5d58046/cinecam/time-lapse-v7.jpg",
+    "example_clip_duration_s": 4.88,
+    "example_clip_width": 1280,
+    "example_clip_height": 720,
+    "tutorial_url": "https://www.fxi.studio/tutorials/prompt-recipes/time-lapse?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=dataset"
+  }
+]

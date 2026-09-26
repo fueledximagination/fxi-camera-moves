@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "AI Video Camera Movements: 43 prompt recipes with example clips"
+authors:
+  - name: "FUELED BY IMAGINATION, LLC"
+    website: "https://www.fxi.studio"
+version: 1.0.0
+date-released: 2026-09-26
+license: CC-BY-4.0
+repository-code: "https://github.com/fueledximagination/fxi-camera-moves"
+url: "https://www.fxi.studio/tutorials/prompt-recipes"
+keywords:
+  - ai video
+  - camera movement
+  - cinematography
+  - prompt engineering
+  - image-to-video
+  - text-to-video

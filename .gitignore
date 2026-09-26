@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.*
+.DS_Store
+*.log
+*.mp4
+*.webm
+REVIEW_SUMMARY.md

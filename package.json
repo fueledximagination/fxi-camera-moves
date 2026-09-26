@@ -1,0 +1,46 @@
+{
+  "name": "fxi-camera-moves",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI video camera movements: 43 prompt recipes (dolly, pan, orbit, crane, drone, FPV and more) with tips, negatives, recommended clip lengths and example clips. JSON + CSV, CC BY 4.0.",
+  "keywords": [
+    "ai-video",
+    "camera-movement",
+    "cinematography",
+    "prompt-engineering",
+    "prompts",
+    "image-to-video",
+    "text-to-video",
+    "dataset",
+    "video-generation"
+  ],
+  "license": "MIT AND CC-BY-4.0",
+  "author": "FUELED BY IMAGINATION, LLC <contact@fxi.studio>",
+  "homepage": "https://github.com/fueledximagination/fxi-camera-moves#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fueledximagination/fxi-camera-moves.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fueledximagination/fxi-camera-moves/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "data",
+    "schema",
+    "src",
+    "README.md",
+    "LICENSE",
+    "LICENSE-DATA"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node --test test/*.test.js",
+    "lint": "node scripts/lint.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
