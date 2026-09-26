@@ -36,7 +36,7 @@ The recipes are plain cinematography language, so they work with any text-to-vid
 ```python
 from datasets import load_dataset
 
-moves = load_dataset("fueledximagination/ai-video-camera-movements", split="train")
+moves = load_dataset("FueledByImagination/ai-video-camera-movements", split="train")
 move = moves.filter(lambda m: m["id"] == "dolly-in")[0]
 
 prompt = move["prompt_template"].replace("{scene}", "A lighthouse keeper at a rain-streaked window at night")
