@@ -6,3 +6,4 @@ node_modules/
 *.mp4
 *.webm
 REVIEW_SUMMARY.md
+!docs/*.mp4
