@@ -14,6 +14,8 @@ Eight of the 43 moves. See all of them at a glance on the **[contact sheet](docs
 
 ---
 
+> **New to camera language for AI video?** Start with the definition: **[What is camera motion in AI video?](https://www.fxi.studio/glossary/camera-motion?utm_source=github&utm_medium=oss&utm_campaign=camera-moves&utm_content=readme-definition)** on FXI Studio.
+
 ## What's in the dataset
 
 | File | What it is |
